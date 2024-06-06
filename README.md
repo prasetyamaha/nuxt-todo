@@ -1,75 +1,33 @@
-# Nuxt 3 Minimal Starter
+# Nuxt Todo App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a simple todo application built with Vue.js (Nuxt.js) and Tailwind CSS. It allows users to add, edit, delete, update status, sort, and filter todos. The application also supports light and dark mode and saves data to localStorage.
 
-## Setup
+## Features
 
-Make sure to install the dependencies:
+- Add todos
+- Edit todos
+- Delete todos
+- Update status of todos
+- Sort todos
+- Filter todos
+- Light and dark mode
 
-```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
+## Prerequisites
 
-# yarn
-yarn install
+Before you begin, ensure you have met the following requirements:
+- You have installed [Node.js](https://nodejs.org/) (version 14 or later)
+- You have installed [npm](https://www.npmjs.com/) (usually comes with Node.js)
 
-# bun
-bun install
-```
+## Installation
 
-## Development Server
+To install and run the application locally, follow these steps:
 
-Start the development server on `http://localhost:3000`:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/prasetyamaha/nuxt-todo.git
+   cd nuxt-todo
+   npm install
+   npm run dev
 
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+   and the app will run on localhost:3000 and you can change the code
